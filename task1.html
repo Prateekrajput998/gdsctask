@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Prateek Rajput</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #pro{
+        text-align:left;
+        margin:-60px 1px 28px 1px;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+        background-color: #f0f0f0;
+        color: #333;
+      }
+
+      .container{
+        display: flex;
+      }
+
+      nav{
+        background-color: #333;
+        width: 200px;
+      }
+
+      nav ul{
+        list-style-type: none;
+        
+        padding: 20px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        padding: 10px 0;
+        transition: background 0.5s;
+      }
+
+      nav a:hover {
+        background-color: #555;
+      }
+
+      main {
+        flex-grow: 1;
+        padding: 20px;
+      }
+
+      header {
+        background-image: url("bag2.jpg");
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        padding: 200px 0;
+      }
+
+      .hero {
+        
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .hero-text img{
+        height: 300px;
+        width: 300px;
+        border-radius: 200px;
+        
+      }
+     
+      .hero-text{
+        color: black;
+        height: 400px;
+        width: auto;
+      }
+      .hero-text p{
+        font-size: medium;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .projects,
+      .about,
+      .social {
+        background-color: #fff;
+        padding: 100px 20px;
+        margin: 100px 0;
+        border-radius: 10px;
+        height: 500px;
+        text-align: center;
+      }
+      .about{
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifz;
+        line-height: 70px;
+      }
+
+      .project {
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        font-size: large;
+        line-height: 50px;
+      }
+
+      .project img{
+        width: 200px;
+        margin-right: 20px;
+        border-radius: 10px;
+      }
+
+      .project-info a{
+        color: #3498db;
+        text-decoration: none;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+      .app li{
+         list-style: none;
+         line-height: 20px;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#social">Contact</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <header id="home">
+          <div class="hero">
+            <div class="hero-text">
+                <img src="prof1.jpg" alt="my photo">
+              <h1>Prateek Rajput</h1>
+              <p>IIT INDORE Btech Electrical Engineering</p>
+              
+            </div>
+          </div>
+        </header>
+
+        <section id="projects" class="projects">
+          <h2 id="pro">Projects</h2>
+          <div class="project">
+            <img src="project1.jpeg" alt="Project 1" />
+            <div class="project-info">
+              <h3>Project 1</h3>
+              <p>This is a quiz website, which shows your live points and it consists
+                    of total 20 questions. After attempting all 20 questions this will
+                    show your final score out of 20. This include basic javascript for of
+                    if/else statements.Here's github link of my Project 1.</p>
+              <a href="https://github.com/Prateekrajput998/pclubtask">Github Link Of My Project</a>
+            </div>
+
+          </div>
+            <div class="project">
+            <img src="projectgymg.png" alt="Project 2" />
+            <div class="project-info">
+              <h3>Project 2</h3>
+              <p>This is a gym website, which shows optins like class schedule contact us on navigation bar .
+                Here's github link of my Project 2.</p>
+              <a href="https://github.com/Prateekrajput998/gym-website">Github Link Of My Project</a>
+            </div>
+          
+        </section>
+
+        <section id="about" class="about">
+          <h2>About Me</h2>
+          <p>Hello! I'm a first-year B.Tech student at IIT Indore, pursuing Electrical and Electronics Engineering. My academic journey has been marked by excellence, with a 9 CPI in the first semester, 99% in 10th CBSE, and 96% in 12th CBSE.
+
+            My passion lies in web design, and I'm currently honing my skills in HTML, CSS, and JavaScript. I believe in the power of creativity and technology to transform ideas into visually appealing and functional websites.
+            
+            In my portfolio, you'll find a collection of web design projects that I've worked on, each reflecting my commitment to creating user-friendly and aesthetically pleasing interfaces. I enjoy tackling challenges head-on and finding innovative solutions to problems.
+            
+            As I progress through my academic journey, I'm excited to explore opportunities to apply my skills in real-world projects, further refining my abilities in web design. I'm not just a student; I'm someone who combines technical expertise with a creative mindset to bring ideas to life on the digital canvas.</p>
+        </section>
+
+        <section id="social" class="social">
+          <h2>Contact</h2>
+          <div class="app">
+          
+            <li><a href="https://www.facebook.com/prateek.rajput.5855"><img src="icons8-facebook-100.png" alt=""></a></li>
+            <li></li>
+            
+            <li><a href="https://www.instagram.com/prateek.r.rajput?utm_source=qr&igsh=cHc5bGc1d2x2amNj"><img src="icons8-instagram-100.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/prateek-rajput-46b9ba287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appz"><img src="icons8-linked-in-100.png" alt=""></a></li>
+            <li><a href="https://twitter.com/Prateek1138270?t=7Owt3ngK-MHIR3FFoWiIUA&s=08"><img src="icons8-twitter-64.png" alt=""></a></li><br>
+            <li><a href=""><img src="icons8-mail.gif" alt="" height="60px"></a></li>
+            
+          </div>
+        
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 @Prateek Rajput. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
